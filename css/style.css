@@ -1,0 +1,54 @@
+/* Header */
+#header {
+    /*background-image: url("/images/HeaderImage.jpg");*/
+    background-color: lightblue;
+    padding: 50px 20px 50px 30px;
+}
+
+#header h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+}
+
+#header h1::first-letter{
+    font-size: 40px;
+}
+
+#header h3{
+    font-weight: bold;
+}
+
+/* Navbar */
+.link {
+    font-size: large;
+    background-color: aquamarine;
+    margin-bottom: 10px ;
+}
+   
+a {
+    background-color: lightcoral;
+    color: black;
+
+
+}
+
+
+a:hover {
+    Background-color: lightpink;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+}
+                                                                                                      
+    
+.infoGroup {
+    font-weight: bold;
+    color: black;
+}
+p {
+    display: inline;
+    color: grey;
+}
