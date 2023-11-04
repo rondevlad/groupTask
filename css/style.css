@@ -1,29 +1,71 @@
+/* Fonts */
+@font-face {
+    font-family: "EmilyCandy";
+    src: url('/fonts/EmilysCandy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "CrimsonText";
+    src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
+}
 /* Header */
 #header {
-    /*background-image: url("/images/HeaderImage.jpg");*/
-    background-color: lightblue;
+    background-image: linear-gradient(to right, #0a91e7 , #043da9);
+    color: white;
     padding: 50px 20px 50px 30px;
 }
 
-#header h1{
-    font-size: 20px;
+#header img{
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+#header h1, h3{
+    font-size: 30px;
     font-weight: bold;
-    text-shadow: 3px 3px 10px black;
+    font-family: 'EmilyCandy';
 }
 
 #header h1::first-letter{
     font-size: 40px;
 }
 
-#header h3{
-    font-weight: bold;
+#space{
+    margin-bottom: 50px;
 }
 
+#header p{
+    color: white;
+    font-size: 20px;
+    font-family: 'CrimsonText';
+    margin-top: 20px;
+}
+
+#signup{
+    display: block;
+    margin-top: 10px;
+    background-color: #4ea74f;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#signup:hover{
+    background-color: #7ed321;
+}
+
+#header div{
+    clear: right;
+    margin-top: 0px;
+}
 /* Navbar */
 .link {
     font-size: large;
     background-color: aquamarine;
-    margin-bottom: 10px ;
+    margin-bottom: 0px ;
 }
    
 a {
@@ -36,6 +78,12 @@ a {
 
 a:hover {
     Background-color: lightpink;
+}
+
+/* Body */
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
