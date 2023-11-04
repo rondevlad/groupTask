@@ -1,3 +1,12 @@
+/* Body */
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'CrimsonText';
+    margin: 0;
+    padding: 0;
+}
+
 /* Fonts */
 @font-face {
     font-family: "EmilyCandy";
@@ -10,12 +19,14 @@
 }
 /* Header */
 #header {
-    background-image: linear-gradient(to right, #0a91e7 , #043da9);
+    background-color: #0a91e7;
     color: white;
     padding: 50px 20px 50px 30px;
 }
 
 #header img{
+    /*Hiding the image until we find one we like*/
+    display: none;
     width: 200px;
     height: 300px;
     float: right;
@@ -38,7 +49,6 @@
 #header p{
     color: white;
     font-size: 20px;
-    font-family: 'CrimsonText';
     margin-top: 20px;
 }
 
@@ -62,33 +72,42 @@
     margin-top: 0px;
 }
 /* Navbar */
+.container{
+    background-color: #ececee;
+    display: flex;
+}
+
 .link {
-    font-size: large;
-    background-color: aquamarine;
+    margin-left: 250px;
+    font-size: 20px;
     margin-bottom: 0px ;
 }
    
-a {
-    background-color: lightcoral;
-    color: black;
-
-
+.link a{
+    background-color: #4ea74f;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-
-a:hover {
-    Background-color: lightpink;
+.link a:hover {
+    background-color: #7ed321;
 }
 
-/* Body */
-body{
-    display: flex;
-    flex-direction: column;
+.link a.active {
+    background-color: #2980b9;
 }
 
 /* Footer */
 footer {
-    background-color: lightblue;
+    /*
+    background-image: linear-gradient(#0a91e7 , #043da9);
+    */
+    background-color: gray;
+    border-top: 2px solid black;
 }
                                                                                                       
     
@@ -98,5 +117,5 @@ footer {
 }
 p {
     display: inline;
-    color: grey;
+    color: black;
 }
