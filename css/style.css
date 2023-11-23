@@ -151,3 +151,15 @@ p {
     display: inline;
     color: white;
 }
+
+
+
+/* Link Styles */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+}
