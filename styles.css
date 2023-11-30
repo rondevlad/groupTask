@@ -137,3 +137,16 @@ form button:hover {
     background-color: #ff1f43;
 }
 
+#left-image, #right-image {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#left-image {
+    transform: scaleX(-1); /* Flip horizontally */
+}
+
+#right-image {
+  
+}
