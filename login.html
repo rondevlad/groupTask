@@ -20,7 +20,7 @@
         </nav>
     </header>
     <section>
-        <h2>Sign in to your account</h2>
+        <h2 id="loggedIn">Sign in to your account</h2>
         <form id="loginForm" action="submit_login_form.php" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -32,7 +32,6 @@
             <button type="button" value="button" onclick="validateForm()">Login</button>
         </form>
         <!--remove these when done-->
-        <p id="success"></p>
     </section>
     <footer>
         <p>&copy; 2023 Dating101</p>

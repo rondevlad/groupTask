@@ -1,7 +1,11 @@
 var userList = [
     { username: 'user1', password: 'pass1' },
     { username: 'user2', password: 'pass2' },
+    { username: '1', password: '1' }
 ];
+
+var isLoggedIn = localStorage.getItem('isLoggedIn') = 'false';
+window.onload = isUserLoggedIn;
 
 function validateForm() {
     var username = document.getElementById('username').value;
@@ -20,9 +24,23 @@ function validateForm() {
         // If form is valid, you can submit it
         //document.getElementById('loginForm').submit();
         
-        // Display a success message (remove this line when done testing)
-        document.getElementById('success').innerText = 'Form submitted successfully!';
+        localStorage.setItem('isLoggedIn', 'true');
+
+
+        document.getElementById('loginForm').style.display = "none";
+        document.getElementById('loggedIn').innerHTML = "You are already logged in!";
+        
+        window.location.href = "index.html";
     } else {
         alert('Invalid username or password');
+    }
+}
+
+function isUserLoggedIn(){
+    //var isLoggedIn = localStorage.getItem('isLoggedIn') === 'false';
+
+    if (isLoggedIn){
+        document.getElementById('loginForm').style.display = "none";
+        document.getElementById('loggedIn').innerHTML = "You are already logged in!";
     }
 }
