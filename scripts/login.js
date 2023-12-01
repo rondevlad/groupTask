@@ -28,7 +28,7 @@ function validateForm() {
 
 
         document.getElementById('loginForm').style.display = "none";
-        document.getElementById('loggedIn').innerHTML = "You are already logged in!";
+        document.getElementById('loggedIn').innerHTML = "You are now logged in";
         
         window.location.href = "index.html";
     } else {
@@ -41,6 +41,6 @@ function isUserLoggedIn(){
 
     if (isLoggedIn){
         document.getElementById('loginForm').style.display = "none";
-        document.getElementById('loggedIn').innerHTML = "You are already logged in!";
+        document.getElementById('loggedIn').innerHTML = "You are now logged in";
     }
 }
