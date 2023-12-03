@@ -38,3 +38,32 @@ function SlideShow(n) {
   slides[slidePosition-1].style.display = "block";
   circles[slidePosition-1].className += " enable";
 } 
+
+
+
+/* Cupid */
+
+// TODO: figure out why this only works with in page scripts
+/*
+document.addEventListener("DOMContentLoaded", function () {
+	console.log("keepe");
+	setInterval(() => {
+		createCupid();
+	}, 30000);
+}, false);
+*/
+
+
+function createCupid() {
+    const cupid = document.createElement("img");
+	var position = Math.floor(Math.random() * 100);
+	cupid.style.top = position.toString().concat("%");
+    cupid.src = "./images/cupid.jpeg";
+    cupid.alt = "Cupid";
+    cupid.classList.add("cupid");
+    document.body.appendChild(cupid);
+
+    setTimeout(() => {
+        document.body.removeChild(cupid);
+    }, 1000); // Remove the cupid after 5 seconds
+}

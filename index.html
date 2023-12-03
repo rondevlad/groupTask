@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
     <title>Dating101 - Home</title>
 </head>
 <body>
-	<!--<img class="cupid" src="images/cupid.jpeg" alt="Cupid">   add cupid later  -->
+
+	<script>
+
+		document.addEventListener("DOMContentLoaded", function () {
+			setInterval(() => {
+				createCupid();
+			}, 30000);
+		}, false);
+
+	</script>
+
+	<img class="cupid" src="images/cupid.jpeg" alt="Cupid">
 
     <header>
         <h1>Welcome to Dating101</h1>

@@ -89,14 +89,13 @@ section::before {
 }
 
 
-/*
 /* Cupid animation */
 @keyframes flyCupid {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(0%);
     }
     100% {
-        transform: translateX(100%);
+        transform: translateX(113vw);
     }
 }
 
@@ -106,10 +105,9 @@ section::before {
     left: -100px;
     width: 100px;
     height: 100px;
-    animation: flyCupid 5s linear infinite;
+    animation: flyCupid 1s linear;
+    /*animation: flyCupid 5s linear infinite;*/
 }
-
-*/
 
 
 /* Signup page */
