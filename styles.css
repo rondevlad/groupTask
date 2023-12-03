@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -24,12 +25,20 @@ nav ul li {
     margin-right: 20px;
 }
 
+
+
+
 nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease-in-out;
+}
+
+/* changes color of the current page link in the header */
+.currentPageLink {
+	color: red;
 }
 
 nav a:hover {
@@ -59,7 +68,12 @@ h1, h2 {
     color: #ff1f43;
 }
 
-/* Add romantic background image to the header */
+
+
+
+
+
+/* TODO: Add romantic background image to the header */
 header {
     background: url('images/derp.jpeg') center/cover no-repeat;
 }
@@ -253,3 +267,5 @@ form button:hover {
     size: large;
     font-weight: bold;
 }
+
+
