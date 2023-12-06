@@ -64,7 +64,7 @@ footer {
     width: 100%;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #ff1f43;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3 {
 
 /* TODO: Add romantic background image to the header */
 header {
-    background: url('images/headerImage.jpg') center/cover no-repeat;
+    background: url('images/derp.jpeg') center/cover no-repeat;
 }
 
 /* Optional: Add some decorative elements */
