@@ -275,3 +275,20 @@ nav{
     padding: 1em 0;
     border-bottom: 2px solid #ff1f43;
 }
+
+/* Match List */
+.matches{
+  border: solid 5px orange;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.matchImage{
+  width: 30%;
+}
+
+.matchDescription{
+  width: 70%;
+  padding-left: 5px;
+}
