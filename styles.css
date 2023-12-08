@@ -274,3 +274,12 @@ nav{
     padding: 1em 0;
     border-bottom: 2px solid #ff1f43;
 }
+
+header p {
+  padding-left: 250px;
+  width: 1000px;
+}
+
+.carasel{
+  padding-bottom: 20px;
+}
