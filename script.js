@@ -61,7 +61,7 @@ function createCupid() {
     const cupid = document.createElement("img");
 	var position = Math.floor(Math.random() * 100);
 	cupid.style.top = position.toString().concat("%");
-    cupid.src = "./images/cupid.jpeg";
+    cupid.src = "./images/cupid.png";
     cupid.alt = "Cupid";
     cupid.classList.add("cupid");
     document.body.appendChild(cupid);
