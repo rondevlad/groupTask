@@ -267,3 +267,10 @@ form button:hover {
 }
 
 
+nav{
+    background-color: #ff4d6d;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #ff1f43;
+}
