@@ -292,3 +292,12 @@ nav{
   width: 70%;
   padding-left: 5px;
 }
+
+header p {
+  padding-left: 250px;
+  width: 1000px;
+}
+
+.carasel{
+  padding-bottom: 20px;
+}
