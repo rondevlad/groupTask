@@ -281,6 +281,15 @@ header p {
   width: 1000px;
 }
 
-.carasel{
-  padding-bottom: 20px;
+
+.lala{
+  padding-bottom: 100px;
+}
+
+body{
+  padding-bottom: 50px;
+}
+
+u{
+  background-color: yellow;
 }
