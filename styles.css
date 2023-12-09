@@ -276,9 +276,26 @@ nav{
     border-bottom: 2px solid #ff1f43;
 }
 
+/* Match List */
+.matches{
+  border: solid 5px orange;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.matchImage{
+  width: 30%;
+}
+
+.matchDescription{
+  width: 70%;
+  padding-left: 5px;
+}
+
 header p {
-  padding-left: 250px;
   width: 1000px;
+  margin: auto;
 }
 
 
@@ -293,3 +310,43 @@ body{
 u{
   background-color: yellow;
 }
+
+/* Carousel */
+.carousel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 400px; /* Set your desired carousel width */
+  margin: 20px auto;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel img {
+  width: 100%;
+  height: 300px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
