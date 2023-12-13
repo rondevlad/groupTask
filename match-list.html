@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts/matchList.js" defer></script>
     <title>Dating101 - Match List</title>
 </head>
 <body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/dating101Logo.png" alt="Dating101 Logo"></a>
+        </div>
+        <div id="icons">
+            <img src="images/twitterLogo.png" alt="Icon 1">
+            <img src="images/instaLogo.png" alt="Icon 2">
+        </div>
+        <!--
+        <h1>Welcome to Dating101 💑</h1>
+        <p>Discover the magic of meaningful connections at Dating101, where love knows no bounds. Our platform is designed to bring together kindred spirits seeking genuine relationships. Whether you're searching for a soulmate, a new adventure, or a lifelong companion, Dating101 is your portal to love.</p>
+        -->
+    </header>
+
     <nav>
         <ul>
             <li><a href="index.html"><img id="left-image" src="./images/pink arrow.png" alt="Left Arrow"> </a></li>
@@ -17,30 +32,48 @@
             <li><a href="interests.html"><img id="right-image" src="./images/pink arrow.png" alt="Right Arrow"> </a></li>
         </ul>
     </nav>
-
-    <header>
-        <h1>Welcome to Dating101 💑</h1>
-        <p>Discover the magic of meaningful connections at Dating101, where love knows no bounds. Our platform is designed to bring together kindred spirits seeking genuine relationships. Whether you're searching for a soulmate, a new adventure, or a lifelong companion, Dating101 is your portal to love.</p>
-    </header>
     
     <section>
         <h2>Matches for you:</h2>
-        <!-- 
-        Feature 3 - Match List (Not ready)
+        
+        <section class="matchBorder">
+            <div class="matches">
+                <img src="images/male2.jpg" alt="Man" width="75px" height="150px" class="matchImage">
+                <p class="matchDescription">
+                    Hey! I'm John, a 40-year-old engineer. I'm all about embracing life's adventures, whether it's exploring new places, 
+                    diving into a good book. I'm seeking someone who shares my love for cats and appreciates a good cup of 
+                    coffee. Let's make some unforgettable memories together!
+                </p>
+            </div>
 
-        <div class="matches">
-            <img src="images/blackMale.jpg" alt="Man" width="75px" height="150px" class="matchImage">
-            <p class="matchDescription">
-                Hey! I'm John, a 40-year-old engineer. I'm all about embracing life's adventures, whether it's exploring new places, 
-                diving into a good book. I'm seeking someone who shares my love for cats and appreciates a good cup of 
-                coffee. Let's make some unforgettable memories together!
-            </p>
-        </div>
-        -->
+            <div class="more-text">
+                <!-- Additional text that is initially hidden -->
+                <p>More details about the match...</p>
+            </div>
+            <button class="toggle-button" onclick="toggleMoreText()">Toggle For More</button>
+        </section>
+
+        
+        <section class="matchBorder">
+            <div class="matches">
+                <img src="images/male1.jpg" alt="Man" width="75px" height="150px" class="matchImage">
+                <p class="matchDescription">
+                    Hey! I'm John, a 40-year-old engineer. I'm all about embracing life's adventures, whether it's exploring new places, 
+                    diving into a good book. I'm seeking someone who shares my love for cats and appreciates a good cup of 
+                    coffee. Let's make some unforgettable memories together!
+                </p>
+            </div>
+
+            <div class="more-text2">
+                <!-- Additional text that is initially hidden -->
+                <p>More details about the match...</p>
+            </div>
+            <button class="toggle-button" onclick="toggleMoreText2()">Toggle For More</button>
+        </section>
     </section>
+
     <footer>
         <p>&copy; 2023 Dating101</p>
     </footer>
 </body>
 </html>
-
