@@ -15,6 +15,7 @@ function validateForm() {
     }
     else{
         form.style.display = "none";
+        document.getElementById('footerLock').style.position = 'fixed';
         accountMade.innerHTML = "Account Successfully Made";
     }
 }
