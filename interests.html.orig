@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-<<<<<<< HEAD
 	<script src="./scripts/interests.js" defer> </script>
-=======
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
->>>>>>> refs/remotes/origin/main
     <title>Dating101 - Possible Interests</title>
 </head>
 <body onload="addInterest();addInterest();addInterest();">
     <header>
+<<<<<<< HEAD
+		<div id="siteTitle">
+			<p>Dating101</p>
+		</div>
+		<div id="icons">
+			<img src="images/twitterLogo.png" alt="Twitter Logo" width="25" height="25">
+			<img src="images/instaLogo.png" alt="Instagram Logo" width="25" height="25">
+			<button id="headerSignUp" onclick="window.location.href='signup.html'">Sign up</button>
+		</div>
+  </header>
+=======
         <div id="siteTitle">
-            <p>Dating101</p>
+            <p><a href="index.html">Dating101</a></p>
         </div>
         <div id="icons">
             <img src="images/twitterLogo.png" alt="Twitter Logo" width="25" height="25">
@@ -24,6 +29,7 @@
             <button id="headerSignUp" onclick="window.location.href='signup.html'">Sign up</button>
         </div>
     </header>
+>>>>>>> 8638263864e1c50826f15e2a565c75357385c3c8
 
     <nav>
         <ul>
