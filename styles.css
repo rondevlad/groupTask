@@ -76,6 +76,15 @@ header {
   width: 10%;
 }
 
+#siteTitle a {
+  color: white;
+  text-decoration: none;
+}
+
+#siteTitle a:hover {
+  color: #ff1f43;
+}
+
 #icons {
   order: 2;
   display: flex;
