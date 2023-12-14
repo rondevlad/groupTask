@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+	<script src="./scripts/interests.js" defer> </script>
     <title>Dating101 - Possible Interests</title>
 </head>
-<body>
+<body onload="addInterest();addInterest();addInterest();">
     <header>
         <div id="logo">
             <a href="index.html"><img src="images/dating101Logo.png" alt="Dating101 Logo"></a>
@@ -30,9 +31,14 @@
             <li><a href="login.html"><img id="right-image" src="./images/pinkArrow.png" alt="Right Arrow"> </a></li>
         </ul>
     </nav>
-    <section>
+    <section class="interestSection">
         <h2>Explore your interests:</h2>
-        <!-- Display possible interests -->
+		
+		<div id="interests">
+
+		</div>
+
+
     </section>
     <footer>
       <p>&copy; 2023 Dating101</p>
