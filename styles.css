@@ -59,8 +59,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1em 0;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
@@ -281,9 +279,6 @@ nav{
   padding-bottom: 100px;
 }
 
-body{
-  padding-bottom: 50px;
-}
 
 u{
 background-color: yellow;
@@ -306,12 +301,13 @@ display: flex;
 }
 
 .matchImage{
-width: 30%;
+  width: 30%;
 }
 
 .matchDescription{
-width: 70%;
-padding-left: 5px;
+  width: 70%;
+  padding-left: 10px;
+  margin-top: 40px;
 }
 
 .toggle-button {
@@ -339,6 +335,19 @@ padding-left: 5px;
   margin-top: 10px;
 }
 
+.leftText {
+  flex: 1;
+  padding: 5px;
+}
+
+.rightText {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.rightText table {
+  border-collapse: collapse;
+}
 /* Carousel */
 .carousel {
 position: relative;
@@ -378,6 +387,7 @@ outline: none;
 
 .prev { left: 0; }
 .next { right: 0; }
+
 
 /* Media query for mobile phones */
 @media screen and (max-width: 600px) {
