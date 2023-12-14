@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/signup.js" defer></script>
     <title>Dating101 - Sign Up</title>
 </head>
 <body>
@@ -22,31 +23,32 @@
 
     <nav>
         <ul>
-            <li><a href="login.html"><img id="left-image" src="./images/pinkArrow.png" alt="Left Arrow"> </a></li>
-            <li><a class="currentPageLink" href="index.html" >Home</a></li>
+            <li><a href="index.html"><img id="left-image" src="./images/pinkArrow.png" alt="Left Arrow"> </a></li>
+            <li><a href="index.html" >Home</a></li>
             <li><a href="match-list.html">Match List</a></li>
             <li><a href="interests.html">Possible Interests</a></li>
             <li><a href="login.html">Login</a></li>
-            <li><a href="match-list.html"><img id="right-image" src="./images/pinkArrow.png" alt="Right Arrow"> </a></li>
+            <li><a href="index.html"><img id="right-image" src="./images/pinkArrow.png" alt="Right Arrow"> </a></li>
         </ul>
     </nav>
 
     <section>
         <h2>Create your account</h2>
+        <h2 id="accountMade"></h2>
         <form id="signupForm" action="submit_signup_form.php" method="post">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" name="username">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email">
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password">
 
             <label for="checkPassword">Reconfirm Password:</label>
-            <input type="checkPassword" id="checkPassword" name="checkPassword" required>
+            <input type="password" id="checkPassword" name="checkPassword">
 
-            <button type="submit">Sign Up</button>
+            <button type="button" value="button" onclick="validateForm()">Sign Up</button>
         </form>
     </section>
     <footer>
