@@ -412,3 +412,23 @@ outline: none;
       width: 100%;
   }
 }
+#s {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(221, 76, 149); /* pink background  */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Round the corners */
+}
+
+#s:hover {
+  background-color: rgb(170, 45, 107); /* darker pink background on hover */
+}
+
+.su{
+  margin-left: 50vh;
+  font-size: 4vh;
+}
