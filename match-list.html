@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts/matchList.js" defer></script>
+    <script src="./scripts/matchList.js" defer></script>
     <title>Dating101 - Match List</title>
 </head>
 <body>
@@ -23,21 +23,21 @@
 
     <nav>
         <ul>
-            <li><a href="index.html"><img id="left-image" src="./images/pink arrow.png" alt="Left Arrow"> </a></li>
+            <li><a href="index.html"><img id="left-image" src="./images/pinkArrow.png" alt="Left Arrow"> </a></li>
             <li><a href="index.html">Home</a></li>
             <li><a class="currentPageLink" href="match-list.html">Match List</a></li>
             <li><a href="interests.html">Possible Interests</a></li>
 			<li><a href="login.html">Login</a></li>
-            <li><a href="interests.html"><img id="right-image" src="./images/pink arrow.png" alt="Right Arrow"> </a></li>
+            <li><a href="interests.html"><img id="right-image" src="./images/pinkArrow.png" alt="Right Arrow"> </a></li>
         </ul>
     </nav>
     
     <section>
         <h2>Matches for you:</h2>
         
-        <section class="matchBorder">
+        <div class="matchBorder">
             <div class="matches">
-                <img src="images/male2.jpg" alt="Man" width="75px" height="150px" class="matchImage">
+                <img src="images/male2.jpg" alt="Man" width="75" height="150" class="matchImage">
                 <p class="matchDescription">
                     Yo, I'm Elliot, a 34 year-old art major. I'm stoked to meet new people and chill out with them. 
                     I'm totally a spontaneous person and love to live in the moment. I also am looking for some singles to
@@ -50,12 +50,13 @@
                 <p>More details about the match...</p>
             </div>
             <button class="toggle-button" onclick="toggleMoreText()">Toggle For More</button>
-        </section>
+        </div>
 
+        <br>
         
-        <section class="matchBorder">
+        <div class="matchBorder">
             <div class="matches">
-                <img src="images/male1.jpg" alt="Man" width="75px" height="150px" class="matchImage">
+                <img src="images/male1.jpg" alt="Man" width="75" height="150" class="matchImage">
                 <p class="matchDescription">
                     Hey! I'm John, a 40-year-old engineer. I'm all about embracing life's adventures, whether it's exploring new places, 
                     diving into a good book. I'm seeking someone who shares my love for cats and appreciates a good cup of 
@@ -68,7 +69,7 @@
                 <p>More details about the match...</p>
             </div>
             <button class="toggle-button" onclick="toggleMoreText2()">Toggle For More</button>
-        </section>
+        </div>
     </section>
 
     <footer>

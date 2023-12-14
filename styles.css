@@ -269,37 +269,6 @@ transition: background-color 0.5s ease;
 background-color: #717161;
 }
 
-/* Faint animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.4s;
-animation-name: fade;
-animation-duration: 1.4s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .5}
-to {opacity: 2}
-}
-
-@keyframes fade {
-from {opacity: .5}
-to {opacity: 2}
-}
-
-.fimage{
-  width: 500px;
-  height: 250px;
-  margin-left: 100px;
-}
-
-.Info{
-  color: plum;
-  size: large;
-  font-weight: bold;
-}
-
-
 nav{
   background-color: #ff4d6d;
   color: #fff;
