@@ -68,5 +68,5 @@ function createCupid() {
 
     setTimeout(() => {
         document.body.removeChild(cupid);
-    }, 1000); // Remove the cupid after 5 seconds
+    }, 2500); // Remove the cupid after 2.5 seconds
 }

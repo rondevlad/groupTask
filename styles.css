@@ -152,7 +152,7 @@ section::before {
   left: -100px;
   width: 100px;
   height: 100px;
-  animation: flyCupid 1s linear;
+  animation: flyCupid 2s linear;
   /*animation: flyCupid 5s linear infinite;*/
 }
 
