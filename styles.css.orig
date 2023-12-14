@@ -424,6 +424,7 @@ outline: none;
   }
 }
 
+<<<<<<< HEAD
 
 /* Styles for interests */
 .interestSection {
@@ -482,7 +483,7 @@ outline: none;
 	background-color: #75DE70;
 }
 
-
+=======
 #s {
   padding: 10px 20px;
   margin: 0 5px;
@@ -508,3 +509,4 @@ outline: none;
   font-family: 'Dancing Script', cursive;
   font-size: 4.5vh;
 }
+>>>>>>> refs/remotes/origin/main
