@@ -301,12 +301,13 @@ display: flex;
 }
 
 .matchImage{
-width: 30%;
+  width: 30%;
 }
 
 .matchDescription{
-width: 70%;
-padding-left: 5px;
+  width: 70%;
+  padding-left: 10px;
+  margin-top: 40px;
 }
 
 .toggle-button {
@@ -327,7 +328,6 @@ padding-left: 5px;
 .more-text {
   display: none;
   margin-top: 10px;
-  display: flex;
 }
 
 .more-text2 {
