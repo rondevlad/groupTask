@@ -332,6 +332,7 @@ padding-left: 5px;
 .more-text {
   display: none;
   margin-top: 10px;
+  display: flex;
 }
 
 .more-text2 {
@@ -339,6 +340,19 @@ padding-left: 5px;
   margin-top: 10px;
 }
 
+.leftText {
+  flex: 1;
+  padding: 5px;
+}
+
+.rightText {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.rightText table {
+  border-collapse: collapse;
+}
 /* Carousel */
 .carousel {
 position: relative;
