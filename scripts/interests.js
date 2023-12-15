@@ -4,7 +4,7 @@ function addInterest() {
 	const interests = document.getElementById("interests");		// div that contains all interests
 	const new_interest = document.createElement("div");
 
-	const names = ["Bob Marley", "Jack Danield", "Handsome Squidward", "Jordan Peterson", "Anthony Apkins", "Howard Benny", "Kevin Hart", "Peter Brigston", "I'm Batman", "Justin Beeber", "Chad", "Generic White Guy"];
+	const names = ["Bob Marley", "Jack Danield", "Handsome Squidward", "Jordan Peterson", "Anthony Apkins", "Howard Benny", "Kevin Hart", "Peter Brigston", "I'm Batman", "Justin Beeber", "Chad", "Generic Random Guy"];
 	const likes = ["Long walks on the beach", "Ice cream", "Wrestling", "Football", "Soccer", "Going to bars", "Watching TV", "Boxing", "Eating compitition"];
 	const images = ["female1.jpg", "female2.jpg","female3.jpg","female4.jpg","male1.jpg","male2.jpg","male3.jpg","male4.jpg", "smexyMan.jpeg", "male5.jpg", "male6.jpg","male7.jpg","male8.jpg", "female5.jpg","female6.jpg","female7.jpg"];
 
