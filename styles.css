@@ -29,11 +29,11 @@ nav a {
 
 /* changes color of the current page link in the header */
 .currentPageLink {
-color: red;
+color: #A5E57E;
 }
 
 nav a:hover {
-  color: #ff1f43;
+  color: #A5E57E;
 }
 
 section {
@@ -342,13 +342,7 @@ display: flex;
   background-color: #ff1f43;
 }
 
-.more-text {
-  display: none;
-  margin-top: 10px;
-  padding-left: 5px;
-}
-
-.more-text2 {
+.more-text, .more-text2, .more-text3 {
   display: none;
   margin-top: 10px;
   padding-left: 5px;
