@@ -6,7 +6,7 @@ function addInterest() {
 
 	const names = ["Bob Marley", "Jack Danield", "Handsome Squidward", "Jordan Peterson", "Anthony Apkins", "Howard Benny", "Kevin Hart", "Peter Brigston", "I'm Batman", "Justin Beeber", "Chad", "Generic White Guy", "Rebecca reel", "Donald Trump", "Cloe Diaz", "jaquine Jeylo", "Mitsy Boro", "Mikaela Reeves", "Ashton Mayor", "Rock Chris", "The Rock", "Daniela Lious", "Justin Timberlake", "Ronald Reagan", "Braddy Pit"];
 	const likes = ["Long walks on the beach", "Ice cream", "Wrestling", "Football", "Soccer", "Going to bars", "Watching TV", "Boxing", "Eating compitition", "Belly Rubs", "Beer Pong", "dancing in the rain", "Pina coladas", "Partying", "Clubbing", "Lying", "Not telling the truth", "Brainwashing", "Trump", "UFC", "MMA", "The Beatles", "Ye", "Politics", "Golf", "Money, Money, and Money"];
-	const images = ["female1.jpg", "female2.jpg","female3.jpg","female4.jpg","male1.jpg","male2.jpg","male3.jpg","male4.jpg", "smexyMan.jpeg", "male5.jpg", "male6.jpg","male7.jpg","male8.jpg", "female5.jpg","female6.jpg","female7.jpg","female8.jpg","female9.jpg","female10.jpg","female11.jpg","female12.jpg","male9.jpg","male10.jpg","male11.jpg","male12.jpg","male13.jpg"];
+	const images = ["female1.jpg", "female2.jpg","female3.jpg","female4.jpg","male1.jpg","male2.jpg","male3.jpg","male4.jpg", "strongMan.jpeg", "male5.jpg", "male6.jpg","male7.jpg","male8.jpg", "female5.jpg","female6.jpg","female7.jpg","female8.jpg","female9.jpg","female10.jpg","female11.jpg","female12.jpg","male9.jpg","male10.jpg","male11.jpg","male12.jpg","male13.jpg"];
 
 	// sets all html and attributes for new interest element
 	new_interest.setAttribute("class", "interest");
